@@ -7,7 +7,7 @@ router.get('/', function(req,res){
 
 router.get('/products', function(_, res){
     res.render('admin/products.html', 
-        {message: 'hello'}
+        {title: 'hello'}
     )
 })
 
